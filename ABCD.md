@@ -1,5 +1,5 @@
 ---
-title: Steps to config ARR as a Proxy Server for AutoACME
+title: Steps to config ARR as a Proxy Server for AutoACMEThis is a test file
 
 ---
 
@@ -15,3 +15,6 @@ title: Steps to config ARR as a Proxy Server for AutoACME
 <p>8/ Go to Centralized Certificates / Edit Feature Settings</p>
 <p>9/ Config it, points to a localtion which will be used by AutoACME + the CPKP password which AutoACME will encrypt</p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2ODU4NTkyN119
+-->
