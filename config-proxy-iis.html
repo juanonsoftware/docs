@@ -1,0 +1,21 @@
+Steps to config ARR as a Proxy Server for AutoACME
+
+1/ Go to ARR Cache, then Server Proxy Settings
+
+2/ Check on Enable proxy
+
+3/ Create a site call AutoACME and add a binding to support autoacme.com port 80
+
+4/ Go to URL Rewrite
+
+5/ Add a blank rule under Inbound and put Pattern = \.well-known/acme-challenge/(.*)
+
+Rewrite URL = http://autoacme.com/{R:1}
+
+6/ In hosts file, add autoacme.com to point to IP of current server
+
+7/ Add a file into folder of AutoACME site and it
+
+8/ Go to Centralized Certificates / Edit Feature Settings
+
+9/ Config it, points to a localtion which will be used by AutoACME + the CPKP password which AutoACME will encrypt
