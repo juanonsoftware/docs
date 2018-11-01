@@ -4,7 +4,7 @@ title: This is a test file
 ---
 
 <p>Steps to config ARR as a Proxy Server for AutoACME</p>
-<p>1/ Go to ARR Cache, then Server Proxy Setti<img src="https://lh3.googleusercontent.com/3Y20WQEoez786KY1D4f0uWLfXN42-YVnWkr-0CV8IHGYKrzhZFcJW0JElGHzAUFPFWPgDvT80-78" alt="Good photo">ngs</p>
+<p>1/ Go to ARR Cache, then Server Proxy Settings</p>
 <p>2/ Check on Enable proxy</p>
 <p>3/ Create a site call AutoACME and add a binding to support <a href="http://autoacme.com">autoacme.com</a> port 80</p>
 <p>4/ Go to URL Rewrite</p>
